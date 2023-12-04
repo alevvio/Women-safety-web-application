@@ -9,13 +9,14 @@ html {
 
 body {
   font: normal 0.8em "Bellefair", arial, sans-serif;
-  background: #f0efe2 url(background.png) repeat;
+  background: #20201f url(background.png) repeat;
   color: #fff;
 }
 
 p {
   padding: 0 0 20px 0;
   line-height: 1.7em;
+  font-size:15px;
 }
 
 img {
@@ -25,17 +26,21 @@ img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
-  font: normal 175% "Bellefair", arial, sans-serif;
-  color: #9932cc;
+  font-family: "Roboto", serif, arial, sans-serif;
+  font: "Roboto" normal 175%;
+  color: #949bff;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
 }
 
+h4,h5 {
+  color: #ffffff;
+}
+
 h2 {
-  font: normal 175% "Amarante", arial, sans-serif;
+  font: normal 175% "Roboto", arial, sans-serif;
 }
 
 h4,
@@ -151,8 +156,8 @@ ol li {
 
 #logo_text h1 a .logo_colour {
   color: #9932cc;
-  font: italic 36px garamond;
-  font-family: "Princess sofia";
+  font: 50px garamond;
+  font-family: "Roboto";
 }
 
 #logo_text h1 a .logo_colour2 {
@@ -162,7 +167,7 @@ ol li {
 }
 
 #logo_text h2 {
-  font-size: 100%;
+  font-size: 135%;
   padding: 4px 0 0 0;
   color: #000;
 }
@@ -384,7 +389,7 @@ table tr td {
 }
 
 body {
-  background: white;
+  background: rgb(254, 192, 192);
 }
 
 .zoomimage {
